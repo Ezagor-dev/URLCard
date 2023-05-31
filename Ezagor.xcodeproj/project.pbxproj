@@ -13,6 +13,7 @@
 		E68E2A7F2A279444004992D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68E2A7E2A279444004992D5 /* Preview Assets.xcassets */; };
 		E68E2A872A279A7A004992D5 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E68E2A862A279A7A004992D5 /* Pacifico-Regular.ttf */; };
 		E68E2A8E2A27D9F8004992D5 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E2A8D2A27D9F8004992D5 /* InfoView.swift */; };
+		E68E2AAA2A27E4FB004992D5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68E2AA92A27E4FB004992D5 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E68E2A862A279A7A004992D5 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		E68E2A8C2A279E2C004992D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E68E2A8D2A27D9F8004992D5 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		E68E2AA92A27E4FB004992D5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E68E2A8D2A27D9F8004992D5 /* InfoView.swift */,
 				E68E2A7B2A279444004992D5 /* Assets.xcassets */,
 				E68E2A7D2A279444004992D5 /* Preview Content */,
+				E68E2AA92A27E4FB004992D5 /* Launch Screen.storyboard */,
 			);
 			path = EzagorCard;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				E68E2A872A279A7A004992D5 /* Pacifico-Regular.ttf in Resources */,
 				E68E2A7F2A279444004992D5 /* Preview Assets.xcassets in Resources */,
+				E68E2AAA2A27E4FB004992D5 /* Launch Screen.storyboard in Resources */,
 				E68E2A7C2A279444004992D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,8 +329,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
